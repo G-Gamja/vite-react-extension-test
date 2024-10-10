@@ -27,6 +27,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         background: resolve(__dirname, srcDir, "script/background.ts"),
+        contentScript: resolve(__dirname, srcDir, "script/contentScript.ts"),
       },
     },
   },

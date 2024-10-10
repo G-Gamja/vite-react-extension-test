@@ -17,6 +17,13 @@
     "128": "icon128-dark.png",
     "256": "icon256-dark.png"
   },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["assets/contentScript-uF3w-Kpz.js"],
+      "run_at": "document_start"
+    }
+  ],
   "background": {
     "service_worker": "assets/background-OK12rsvl.js"
   },
