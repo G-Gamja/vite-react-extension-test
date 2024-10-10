@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Test Chrome Extension",
+  "version": "1.0.0",
+  "description": "test chrome extension with vite,react,ts",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": []
+}
